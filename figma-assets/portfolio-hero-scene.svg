@@ -1,0 +1,147 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1920" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FBEEDB"/>
+      <stop offset="0.55" stop-color="#F6DDC2"/>
+      <stop offset="1" stop-color="#E9B889"/>
+    </linearGradient>
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1280 290) rotate(137) scale(760 520)">
+      <stop stop-color="#FFF7E9" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#FFF7E9" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="table" x1="288" y1="717" x2="1680" y2="1010" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B96B44"/>
+      <stop offset="0.55" stop-color="#8F4C31"/>
+      <stop offset="1" stop-color="#5C3A2E"/>
+    </linearGradient>
+    <linearGradient id="phone" x1="950" y1="385" x2="1160" y2="812" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFF2E2"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#3F2A22" flood-opacity="0.18"/>
+    </filter>
+    <filter id="bowlShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="10" flood-color="#3F2A22" flood-opacity="0.22"/>
+    </filter>
+    <pattern id="wallPattern" width="92" height="92" patternUnits="userSpaceOnUse">
+      <path d="M0 91H92" stroke="#D9A13B" stroke-opacity="0.12"/>
+      <path d="M91 0V92" stroke="#C43A2B" stroke-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#wall)"/>
+  <rect width="1920" height="1080" fill="url(#wallPattern)"/>
+  <rect width="1920" height="1080" fill="url(#light)"/>
+
+  <circle cx="1520" cy="166" r="112" fill="#D9A13B" fill-opacity="0.2"/>
+  <circle cx="1658" cy="246" r="64" fill="#C43A2B" fill-opacity="0.12"/>
+  <circle cx="684" cy="168" r="74" fill="#FFFFFF" fill-opacity="0.28"/>
+
+  <g opacity="0.78">
+    <rect x="1160" y="146" width="328" height="180" rx="22" fill="#FFF8EC" stroke="#E5C9AC" stroke-width="3"/>
+    <path d="M1196 285C1242 228 1272 235 1308 262C1336 283 1367 278 1396 229C1428 173 1461 190 1474 205" stroke="#C43A2B" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="1232" cy="204" r="30" fill="#D9A13B" fill-opacity="0.65"/>
+  </g>
+
+  <ellipse cx="960" cy="898" rx="760" ry="168" fill="#3F2A22" fill-opacity="0.18"/>
+  <path d="M220 762C454 677 1474 677 1706 762C1802 797 1740 997 1588 1025C1274 1082 628 1082 320 1025C170 997 124 797 220 762Z" fill="url(#table)"/>
+  <path d="M252 772C502 706 1424 704 1668 772C1458 844 478 846 252 772Z" fill="#C98358"/>
+  <path d="M432 812C732 858 1208 858 1510 812" stroke="#5C3A2E" stroke-opacity="0.28" stroke-width="8" stroke-linecap="round"/>
+
+  <!-- girl left -->
+  <g filter="url(#softShadow)">
+    <path d="M365 474C306 523 294 641 330 734C378 811 528 804 574 724C626 634 584 520 519 476C478 448 407 439 365 474Z" fill="#F4C1A3"/>
+    <path d="M336 502C364 410 472 388 548 444C604 486 621 567 612 639C560 608 534 539 482 531C426 522 405 580 352 599C327 568 323 538 336 502Z" fill="#37231C"/>
+    <circle cx="454" cy="548" r="78" fill="#F2B48F"/>
+    <path d="M385 544C402 514 430 504 456 512C490 523 512 557 534 578C520 625 483 655 438 651C396 648 364 615 361 575C360 566 366 553 385 544Z" fill="#F7C5A7"/>
+    <path d="M413 572C425 583 444 584 458 573" stroke="#7D3F30" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="414" cy="548" r="6" fill="#3F2A22"/>
+    <circle cx="482" cy="548" r="6" fill="#3F2A22"/>
+    <path d="M338 696C394 635 510 636 580 702C634 754 646 836 630 901H291C286 817 296 748 338 696Z" fill="#C43A2B"/>
+    <path d="M352 738C402 792 526 792 594 740" stroke="#F8D8BF" stroke-opacity="0.48" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- girl middle holding phone -->
+  <g filter="url(#softShadow)">
+    <path d="M785 428C718 487 699 606 748 706C801 814 1005 812 1054 704C1100 603 1082 494 1014 432C957 380 840 380 785 428Z" fill="#3A2520"/>
+    <circle cx="897" cy="526" r="92" fill="#F4BA96"/>
+    <path d="M806 525C836 481 887 461 948 482C988 495 1010 522 1028 558C1008 471 955 424 880 431C817 437 780 483 772 555C781 544 791 534 806 525Z" fill="#261813"/>
+    <path d="M854 558C867 571 887 571 899 558" stroke="#7D3F30" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="855" cy="528" r="6" fill="#3F2A22"/>
+    <circle cx="936" cy="528" r="6" fill="#3F2A22"/>
+    <path d="M724 706C781 638 999 639 1071 709C1142 778 1155 872 1137 937H672C656 863 661 782 724 706Z" fill="#536B53"/>
+    <path d="M818 716C856 760 960 762 1015 720" stroke="#F3E5D3" stroke-opacity="0.52" stroke-width="10" stroke-linecap="round"/>
+    <rect x="930" y="592" width="188" height="334" rx="38" fill="#2D211C"/>
+    <rect x="945" y="610" width="158" height="302" rx="28" fill="url(#phone)"/>
+    <rect x="982" y="622" width="84" height="10" rx="5" fill="#2D211C"/>
+    <rect x="964" y="654" width="120" height="34" rx="17" fill="#C43A2B"/>
+    <text x="1024" y="677" text-anchor="middle" font-size="18" font-family="Microsoft YaHei, sans-serif" font-weight="700" fill="#FFFFFF">潮甜记</text>
+    <rect x="965" y="704" width="118" height="68" rx="16" fill="#FEF5E8" stroke="#EDE0D2" stroke-width="2"/>
+    <circle cx="990" cy="738" r="17" fill="#D9A13B"/>
+    <path d="M1020 725H1072" stroke="#5C3A2E" stroke-width="6" stroke-linecap="round"/>
+    <path d="M1020 747H1058" stroke="#9B7A62" stroke-width="5" stroke-linecap="round"/>
+    <rect x="965" y="790" width="118" height="52" rx="26" fill="#C43A2B"/>
+    <text x="1024" y="823" text-anchor="middle" font-size="18" font-family="Microsoft YaHei, sans-serif" font-weight="700" fill="#FFFFFF">点单</text>
+    <path d="M812 760C846 712 894 701 948 736" stroke="#F1B591" stroke-width="26" stroke-linecap="round"/>
+    <path d="M1112 764C1069 727 1030 717 987 738" stroke="#F1B591" stroke-width="26" stroke-linecap="round"/>
+  </g>
+
+  <!-- girl right -->
+  <g filter="url(#softShadow)">
+    <path d="M1262 455C1201 511 1186 619 1225 710C1270 812 1447 808 1492 708C1532 618 1510 503 1452 455C1399 410 1314 409 1262 455Z" fill="#493025"/>
+    <circle cx="1358" cy="532" r="82" fill="#F1B18D"/>
+    <path d="M1276 526C1314 478 1390 464 1444 516C1454 471 1427 426 1385 411C1322 388 1259 427 1239 493C1228 530 1230 560 1245 589C1252 565 1260 544 1276 526Z" fill="#3B231C"/>
+    <circle cx="1325" cy="533" r="6" fill="#3F2A22"/>
+    <circle cx="1391" cy="533" r="6" fill="#3F2A22"/>
+    <path d="M1328 568C1342 578 1362 578 1376 567" stroke="#7D3F30" stroke-width="5" stroke-linecap="round"/>
+    <path d="M1214 704C1260 647 1417 642 1482 704C1542 762 1558 846 1542 916H1168C1156 830 1166 764 1214 704Z" fill="#425D72"/>
+    <path d="M1235 742C1282 789 1402 790 1462 744" stroke="#E4EEF6" stroke-opacity="0.42" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <!-- sweets on table -->
+  <g filter="url(#bowlShadow)">
+    <ellipse cx="536" cy="812" rx="118" ry="54" fill="#FFF8EC"/>
+    <ellipse cx="536" cy="803" rx="96" ry="40" fill="#E5B46F"/>
+    <circle cx="498" cy="797" r="15" fill="#F2E7D0"/>
+    <circle cx="535" cy="789" r="16" fill="#F6D7C0"/>
+    <circle cx="576" cy="806" r="14" fill="#B85D48"/>
+    <path d="M476 827C526 849 586 843 628 817" stroke="#D9A13B" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#bowlShadow)">
+    <ellipse cx="760" cy="856" rx="112" ry="50" fill="#FFF8EC"/>
+    <ellipse cx="760" cy="847" rx="90" ry="36" fill="#F4E2C2"/>
+    <circle cx="727" cy="842" r="14" fill="#D8C3A0"/>
+    <circle cx="763" cy="850" r="16" fill="#F8F2DE"/>
+    <circle cx="798" cy="837" r="13" fill="#C43A2B"/>
+    <path d="M707 864C748 888 810 879 843 855" stroke="#9B7A62" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#bowlShadow)">
+    <ellipse cx="1212" cy="848" rx="122" ry="54" fill="#FFF8EC"/>
+    <ellipse cx="1212" cy="838" rx="98" ry="39" fill="#F2CF9D"/>
+    <circle cx="1170" cy="835" r="15" fill="#EFD9B0"/>
+    <circle cx="1208" cy="824" r="16" fill="#FFFFFF"/>
+    <circle cx="1246" cy="839" r="15" fill="#D7A24A"/>
+    <circle cx="1276" cy="823" r="12" fill="#7D3F30"/>
+    <path d="M1148 862C1200 889 1264 884 1310 851" stroke="#C43A2B" stroke-width="7" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#bowlShadow)">
+    <ellipse cx="1432" cy="798" rx="110" ry="50" fill="#FFF8EC"/>
+    <ellipse cx="1432" cy="790" rx="88" ry="35" fill="#F6D7B0"/>
+    <circle cx="1402" cy="784" r="13" fill="#D9A13B"/>
+    <circle cx="1430" cy="796" r="15" fill="#F8F2DE"/>
+    <circle cx="1466" cy="784" r="13" fill="#B85D48"/>
+    <path d="M1380 814C1424 834 1479 830 1518 804" stroke="#D9A13B" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <g opacity="0.88">
+    <rect x="356" y="920" width="282" height="44" rx="22" fill="#FFF8EC" fill-opacity="0.86"/>
+    <circle cx="390" cy="942" r="12" fill="#C43A2B"/>
+    <path d="M414 942H602" stroke="#9B7A62" stroke-width="8" stroke-linecap="round"/>
+    <rect x="1300" y="932" width="250" height="42" rx="21" fill="#FFF8EC" fill-opacity="0.82"/>
+    <circle cx="1332" cy="953" r="11" fill="#D9A13B"/>
+    <path d="M1356 953H1518" stroke="#9B7A62" stroke-width="8" stroke-linecap="round"/>
+  </g>
+
+  <rect width="1920" height="1080" fill="url(#light)" opacity="0.24"/>
+</svg>
